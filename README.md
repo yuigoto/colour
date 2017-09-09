@@ -1,15 +1,17 @@
-Colour Converters
-=================
+YX : Java : Colour Converters
+=============================
 
-Color conversion methods (+ a random Hex color generator) built on top of **[Eixo X's Jetfuel](https://github.com/EixoX/jetfuel)** as proof-of-concept on how easy and fast it is to build API endpoints using Jetfuel's programming paradigm.
+> Color conversion and generator methods built on top of **[Eixo X's Jetfuel](https://github.com/EixoX/jetfuel)** framework as proof-of-concept on how easy and fast it is to build API endpoints using Jetfuel's programming paradigm.
 
 And by easy and fast I **totally** mean it, since I barely know a few things about Java. :wink:
 
 Most of these color conversion methods were found all over the internet, I just don't remember where! :sweat_smile:
 
------
+## Dependencies
 
-#### Testing
+- `Jetfuel`;
+
+## Using
 
 Just add the project to your local copy of Jetfuel (follow the instructions on the project's repository) and access any of the following endpoints:
 
@@ -24,3 +26,17 @@ Just add the project to your local copy of Jetfuel (follow the instructions on t
 	- _This endpoint accepts RGB values ranging from 0 ~ 255_;
 - **`/colour/RgbHsv`**: converts a color from the RGB color space to HSV values, with H ranging from 0 ~ 360 and S/V ranging from 0 ~ 100;
 	- _This endpoint accepts RGB values ranging from 0 ~ 255_;
+
+## License 
+
+The code in this repository is distributed under the `Apache License`. Please, check the `LICENSE.md` file for more details.
+
+-----
+
+_© 2017 Fabio Y. Goto_
+
+[\\]: ======================================================================
+
+[mailto01]: mailto:lab@yuiti.com.br
+
+[\\]: ======================================================================
